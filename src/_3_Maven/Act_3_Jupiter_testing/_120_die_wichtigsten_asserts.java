@@ -1,4 +1,4 @@
-package _3_Maven.Act_3_testing.Level_1_Jupiter;
+package _3_Maven.Act_3_Jupiter_testing;
 
 import java.io.IOException;
 
