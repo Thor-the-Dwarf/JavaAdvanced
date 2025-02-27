@@ -1,0 +1,49 @@
+🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Bereitstellung der JSON-Dependency in Maven 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
+
+############################################################################################################
+📜 Schritt 1: pom.xml anpassen
+############################################################################################################
+
+✅ Öffne die Datei pom.xml und füge folgende Abhängigkeit hinzu:
+
+📜 pom.xml (Ausschnitt)(veraltete Version):
+
+<!-- https://mvnrepository.com/artifact/org.json/json -->
+<dependency>
+    <groupId>org.json</groupId>
+    <artifactId>json</artifactId>
+    <version>20250107</version>
+</dependency>
+
+############################################################################################################
+⚙️ Schritt 2: Projekt kompilieren und Abhängigkeiten installieren
+############################################################################################################
+
+✅ Kompiliere das Projekt und installiere die Abhängigkeiten:
+______📟 Terminal: 📟_______
+cd /pfad/zum/projekt/ordner     ✅ Wechsle in dein Projektverzeichnis:
+mvn clean install
+____________________________
+
+############################################################################################################
+✅ Schritt 3: Überprüfen der JSON-Bibliothek
+############################################################################################################
+
+✅ Überprüfe, ob die JSON-Bibliothek verfügbar ist, indem du die Klasse org.json.JSONObject in deinem Code verwendest.
+
+📦 Beispiel:
+import org.json.JSONObject;
+
+public class Main {
+    public static void main(String[] args) {
+        JSONObject jsonObject = new JSONObject();
+        jsonObject.put("name", "Thor");
+        jsonObject.put("age", 100);
+        System.out.println(jsonObject);
+    }
+}
+🎉 ✅ Die org.json-Bibliothek ist jetzt eingebunden und einsatzbereit! 🚀
+
+
+mvn dependency:tree
+

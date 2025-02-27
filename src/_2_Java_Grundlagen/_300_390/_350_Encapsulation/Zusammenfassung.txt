@@ -1,0 +1,7 @@
+
+    KeyWord                             Acces from
+
+public              selbe Klasse, Selbes Package, Kindklassen, Anderes Packages
+protected           selbe Klasse, Selbes Package, Kindklassen
+packagePrivate      selbe Klasse, Selbes Package,
+private             selbe Klasse

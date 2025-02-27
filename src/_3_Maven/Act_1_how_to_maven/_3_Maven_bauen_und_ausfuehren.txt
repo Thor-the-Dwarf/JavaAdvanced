@@ -1,0 +1,90 @@
+🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Maven-Projekt bauen und ausführen 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
+
+
+
+############################################################################################################
+📜 Schritt 1: pom.xml anpassen
+############################################################################################################
+
+✅ Öffne die Datei pom.xml und füge folgende Abhängigkeiten hinzu:
+
+📜 pom.xml (Ausschnitt):
+
+<dependencies>
+    <dependency>
+        <groupId>junit</groupId>
+        <artifactId>junit</artifactId>
+        <version>4.13.2</version>
+        <scope>test</scope>
+    </dependency>
+</dependencies>
+
+
+############################################################################################################
+⚙️ Schritt 2: Projekt kompilieren und bauen
+############################################################################################################
+
+✅ Projekt kompilieren und Abhängigkeiten installieren:
+______📟 Terminal: 📟_______
+cd /pfad/zum/projekt/ordner ✅ Wechsle in dein Projektverzeichnis:
+
+mvn clean install
+____________________________
+
+############################################################################################################
+✅ Schritt 2: Tests ausführen
+############################################################################################################
+
+✅ Unit-Tests mit Maven ausführen:
+______📟 Terminal: 📟_______
+mvn test
+____________________________
+
+############################################################################################################
+📦 Schritt 3: JAR-Datei erstellen
+############################################################################################################
+
+✅ Falls du ein ausführbares JAR möchtest, füge dies zur pom.xml hinzu:
+
+📜 pom.xml (Ausschnitt):
+<build>
+    <plugins>
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-compiler-plugin</artifactId>
+            <version>3.8.1</version>
+            <configuration>
+                <source>17</source>
+                <target>17</target>
+            </configuration>
+        </plugin>
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-jar-plugin</artifactId>
+            <version>3.2.0</version>
+            <configuration>
+                <archive>
+                    <manifest>
+                        <mainClass>com.unterricht.Main</mainClass>
+                    </manifest>
+                </archive>
+            </configuration>
+        </plugin>
+    </plugins>
+</build>
+
+
+✅ Erstelle das JAR:
+______📟 Terminal: 📟_______
+mvn package
+____________________________
+
+############################################################################################################
+🚀 Schritt 4: JAR ausführen
+############################################################################################################
+
+✅ Starte das erstellte JAR:
+📟 Terminal: 📟_
+java -jar target/FSM2_Unterrichtsmitschriftten-1.0-SNAPSHOT.jar
+
+🎉 ✅ Dein Maven-Projekt ist jetzt erfolgreich gebaut und lauffähig! 🚀

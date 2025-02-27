@@ -1,0 +1,37 @@
+🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Installation und Einrichtung von Maven 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
+
+                        🛠️🛠️🛠️ 1. Maven installieren (falls nicht vorhanden) 🛠️🛠️🛠️
+    Maven kann direkt über die Konsole installiert werden. Je nach Betriebssystem folge den Anweisungen:
+
+############################################################################################################
+                                        🖥️ Windows:
+############################################################################################################
+______📟 Terminal: 📟_______
+cd /pfad/zum/projekt/ordner ✅ Wechsle in dein Projektverzeichnis:
+____________________________
+
+ENTWEDER
+
+✅ Scoop (empfohlen):
+______📟 Terminal: 📟_______
+scoop install maven
+____________________________
+
+ODER
+
+✅ Chocolatey:
+______📟 Terminal: 📟_______
+choco install maven
+____________________________
+
+##################### Manuelle Installation (Clicki-Bunti auf der GUI): ########################
+1️⃣ Lade die neueste Version von 🔗 Maven (Download) herunter.
+2️⃣ Entpacke sie in 📂 C:\Program Files\Apache\maven.
+3️⃣ Setze die Umgebungsvariablen:
+
+🏷️ MAVEN_HOME = C:\Program Files\Apache\maven
+🛤️ Path += %MAVEN_HOME%\bin
+4️⃣ Überprüfe die Installation:
+______📟 Terminal: 📟_______
+mvn -v
+____________________________

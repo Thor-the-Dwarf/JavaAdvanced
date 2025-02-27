@@ -1,0 +1,99 @@
+
+[
+
+
+
+
+  {
+    "datenpaket": {
+      "true": 1,
+      "22": true,
+      "key": true
+    }
+  },
+
+
+
+
+
+  {
+    "name": "Henry",
+    "nachname": "Maffay",
+    "alter": 54,
+    "weiblich": false,
+    "kinder": [
+      {
+        "name": "Henry",
+        "nachname": "Maffay",
+        "alter": 54,
+        "weiblich": false
+      },
+      {
+        "name": "Claudia",
+        "nachname": "Silbereisen",
+        "alter": 22,
+        "weiblich": true
+      }
+    ]
+  },
+  {
+    "name": "Henry",
+    "nachname": "Maffay",
+    "alter": 54,
+    "weiblich": false,
+    "kinder": [
+      {
+        "name": "Henry",
+        "nachname": "Maffay",
+        "alter": 54,
+        "weiblich": false
+      },
+      {
+        "name": "Claudia",
+        "nachname": "Silbereisen",
+        "alter": 22,
+        "weiblich": true
+      }
+    ]
+  },
+  {
+    "name": "Henry",
+    "nachname": "Maffay",
+    "alter": 54,
+    "weiblich": false,
+    "kinder": [
+      {
+        "name": "Henry",
+        "nachname": "Maffay",
+        "alter": 54,
+        "weiblich": false
+      },
+      {
+        "name": "Claudia",
+        "nachname": "Silbereisen",
+        "alter": 22,
+        "weiblich": true
+      }
+    ]
+  },
+  {
+    "name": "Henry",
+    "nachname": "Maffay",
+    "alter": 54,
+    "weiblich": false,
+    "kinder": [
+      {
+        "name": "Henry",
+        "nachname": "Maffay",
+        "alter": 54,
+        "weiblich": false
+      },
+      {
+        "name": "Claudia",
+        "nachname": "Silbereisen",
+        "alter": 22,
+        "weiblich": true
+      }
+    ]
+  }
+]

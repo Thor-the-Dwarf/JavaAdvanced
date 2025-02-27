@@ -1,0 +1,97 @@
+🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Git Cheat-Sheet 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
+
+############################################################################################################
+📜 Schritt 1: Git installieren Irgendwas verändere
+############################################################################################################
+
+✅ Lade Git herunter und installiere es:
+🔗 Webseite: https://git-scm.com/downloads
+
+📟 Prüfe die Installation:
+______📟 Terminal: 📟_______
+git --version
+____________________________
+
+############################################################################################################
+📂 Schritt 2: Git-Repository erstellen
+############################################################################################################
+
+✅ Erstelle ein neues Repository im gewünschten Projektordner:
+______📟 Terminal: 📟_______
+cd /pfad/zum/projekt/ordner
+git init
+____________________________
+
+############################################################################################################
+📦 Schritt 3: Änderungen verfolgen und Committen
+############################################################################################################
+
+✅ Geänderte Dateien dem Staging-Bereich hinzufügen:
+______📟 Terminal: 📟_______
+git add .
+____________________________
+
+✅ Änderungen committen:
+______📟 Terminal: 📟_______
+git commit -m "Beschreibung der Änderungen"
+____________________________
+
+
+
+
+#######################################################################################################################
+📜📜📜 Wenn der Repository Owner(der Dozent) auffordert einen pull zu machen verwenden wir den folgenden Befehl📜📜📜
+#######################################################################################################################
+✅ Remote Repository pullen ohne das lokele(eigene) zu überschreiben (git merge):
+______📟 Terminal: 📟_______
+git pull --no-rebase origin main
+____________________________
+** --rebase würde dazu führen das lokale commits verschwinden und der Tree des Remoterepositoris an deren stelle tritt
+
+
+
+
+############################################################################################################
+📋 Nützliche Git-Befehle
+############################################################################################################
+
+✅ Status anzeigen:
+______📟 Terminal: 📟_______
+git status
+____________________________
+
+✅ Logs anzeigen:
+______📟 Terminal: 📟_______
+git log
+____________________________
+
+✅ Branch erstellen:
+______📟 Terminal: 📟_______
+git branch neuer-branch
+____________________________
+
+✅ Branch wechseln:
+______📟 Terminal: 📟_______
+git checkout neuer-branch
+____________________________
+
+
+
+############################################################################################################
+🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Git Remote z.B. mit GitHub 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
+############################################################################################################
+
+✅ Füge ein Remote-Repository hinzu:
+______📟 Terminal: 📟_______
+git remote add origin https://github.com/Thor-the-Dwarf/Java_Advanced.git
+____________________________
+
+✅ Lade Änderungen in das Remote-Repository hoch:
+______📟 Terminal: 📟_______
+git push -u origin main
+____________________________
+
+✅ Hole die neuesten Änderungen:
+______📟 Terminal: 📟_______
+git pull origin main
+____________________________

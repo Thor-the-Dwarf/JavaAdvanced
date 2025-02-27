@@ -1,0 +1,36 @@
+🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Installation und Einrichtung von Maven 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
+
+                        🛠️🛠️🛠️ 1. Maven installieren (falls nicht vorhanden) 🛠️🛠️🛠️
+    Maven kann direkt über die Konsole installiert werden. Je nach Betriebssystem folge den Anweisungen:
+
+
+############################################################################################################
+                                        🖥️ Linux/macOS:
+############################################################################################################
+
+✅ Mit Paketmanager:
+______📟 Terminal: 📟_______
+cd /pfad/zum/projekt/ordner ✅ Wechsle in dein Projektverzeichnis:
+
+sudo apt install maven      🟢 Debian/Ubuntu
+sudo dnf install maven      🔵 Fedora
+brew install maven          🍏 macOS
+____________________________
+
+##################### Manuelle Installation (Clicki-Bunti auf der GUI): ########################
+1️⃣ Lade Maven von 🔗 Maven Download herunter.
+2️⃣ Entpacke es nach 📂 /opt/maven.
+3️⃣ Setze die Umgebungsvariablen:
+
+______📟 Terminal: 📟_______
+export MAVEN_HOME=/opt/maven
+export PATH=$MAVEN_HOME/bin:$PATH
+____________________________
+
+4️⃣ Überprüfe die Installation:
+
+______📟 Terminal: 📟_______
+mvn -v
+____________________________
+
+🎉 ✅ Dein Projekt FSM2_Unterrichtsmitschriftten ist jetzt ein Maven-Projekt! 🚀
