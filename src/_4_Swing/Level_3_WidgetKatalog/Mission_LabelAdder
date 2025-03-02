@@ -1,0 +1,5 @@
+Erstelle einen LabelAdder.
+
+1. In der ersten Reihe soll ein JTextField und ein JButton sein.
+2. In der zweiten Reihe soll ein JPanel, der "childSpace", ein ListViewLayout
+3. Wenn man auf den Button drückt soll dem "childSpace" ein JLabel mit dem aktuellen Text des JTextfields angezeigt werden
