@@ -1,0 +1,11 @@
+Schreibe eine App bestehend aus 4 Dateien.
+
+eine Datei soll das JFrame sein/erben
+eine Datei soll ein JButton sein/erben
+eine Datei soll ein JLabel sein/erben
+eine Datei soll ausführbar sein
+
+
+Die App hat ein Label und einen Button.
+Wenn ich auf den Button drücke wird eine Randomzahl
+generiert und auf dem Label angezeigt.
